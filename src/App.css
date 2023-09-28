@@ -1,0 +1,189 @@
+.body {
+  background: #fef7d3;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.bodycomponentes {
+  background: #fef7d3;
+}
+
+#root {
+  text-align: center;
+}
+
+a {
+  margin: 10px;
+}
+.input-narrow {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+div.info-container {
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+}
+.navbar-menu-container {
+  display: none;
+}
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #224278;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 660px) {
+  div.navbar-links-container {
+    display: none;
+  }
+
+  div.navbar-menu-container {
+    display: block;
+    float: right;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  div.navbar-menu-container {
+    display: none;
+  }
+
+  div.navbar-links-container {
+    display: block;
+    float: right;
+    padding: auto;
+  }
+}
+
+.landing-container {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .landing-header {
+    border: none;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left {
+    flex: 1;
+  }
+  
+  .header-left h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .header-left h2 {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .cv-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 5px;
+  }
+  
+  /* .header-right {
+    /* Puedes ajustar estilos para la parte derecha, como agregar una imagen */
+  /* } */ */
+  
+  .info-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: black
+  }
+  
+  .info-section h2 {
+    font-size: 1.8rem;
+    color: #224278;
+  }
+  
+  .info-section p {
+    font-size: 1rem;
+    color: #3768a4;
+    line-height: 1.5
+  }
+
+
+
+.proyectos-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .proyectos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  .proyecto-card {
+    flex: 1;
+    max-width: calc(33.33% - 20px); 
+  }
+
+
+
+
+  .articulos-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff; /* Color del enlace */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Cambia de color al pasar el cursor */
+  }
+
+  .carousel-control-prev, .carousel-control-next  {
+    color: "black"
+  }   
+
+
