@@ -12,7 +12,7 @@ function App() {
     <div style = {{backgroundColor: "#bdd9f2", width: "100%"}}>
       <Navbar />
       <Routes>
-        <Route path="/portfolio/about" element={<Landing/>} />
+        <Route path="/" element={<Landing/>} />
         <Route path="/portfolio/proyects" element={<Proyectos />} />
         <Route path="/portfolio/tv" element={<Tv/>} />
         <Route path="/portfolio/articles" element={<Articulos />} />

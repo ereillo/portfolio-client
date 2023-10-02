@@ -9,7 +9,7 @@ function Landing() {
         <Container>
           <Row>
             <Col md={6} className="text-white">
-              <h1 className="display-4" style={{ color: "#224278", marginTop: "200px" }}>¡Hola! Soy <b>Evelio</b></h1>
+              <h1 className="display-4" style={{ color: "#224278", marginTop: "100px" }}>¡Hola! Soy <b>Evelio</b></h1>
               <h2 className="h4" style={{ color: "#3d6da6" }}>Desarrollador web full-stack, periodista y copywriter</h2>
               <p className="info-section">
                 Nací en Las Palmas de Gran Canaria el 23 de abril de 1995. Siempre he desarrollado una gran inquietud por la comunicación y las nuevas tecnologías (y el deporte, mi gran pasión). En 2017 me gradué en Periodismo y Comunicación Audiovisual por la Universidad Carlos III de Madrid y en 2023 realicé un curso de Desarrollo Web Full-stack con la academia Ironhack Madrid en busca de abrirme nuevas posibilidades y abordar mis inquietudes por el mundo de la programación.
@@ -48,6 +48,7 @@ function Landing() {
                   <li>Adobe Premiere</li>
                   <li>Adobe Lightroom</li>
                   <li>Adobe Photoshop</li>
+                  <li>Audacity </li>
                 </ul>
               </div>
             </Col>

@@ -7,7 +7,7 @@ function Articulos() {
   return (
     <ListGroup variant="flush">
     <div style = {{marginTop: "100px"}}>
-      <h1 style = {{marginTop: "-30px", marginBottom: "50px"}}>Artículos publicados</h1>
+      <h1 style = {{marginTop: "-30px", marginBottom: "50px", color: "#224278"}}>Artículos publicados</h1>
       <div style = {{display: "flex", justifyContent: "center"}}>
       <ul>
       <ListGroup.Item action variant="info" style= {{width: "500px"}}>

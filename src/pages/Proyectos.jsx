@@ -21,7 +21,7 @@ function Proyectos() {
       ];
 
       return (
-        <div className="container mt-4" style={{ marginTop: "30px" }}>
+        <div className="container mt-4" style={{ marginTop: "30px", color: "#224278", justifyContent: "center" }}>
           <h1>Proyectos Bootcamp Ironhack 2023</h1>
           <div className="row" style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center", marginTop: "50px" }}>
             {proyectos.map((proyecto, index) => (

@@ -126,7 +126,12 @@ nav {
   .info-section {
     font-size: 1rem;
     color: #224278;
-    line-height: 1.5
+    line-height: 1.5;
+    background-color: #e8f5ff!important;
+  }
+
+  .info-card {
+    color: "#3d6da6"
   }
 
 
@@ -138,6 +143,7 @@ nav {
 .proyectos-container {
     padding: 20px;
     text-align: center;
+    background-color: #e8f5ff!important;
   }
   
   .proyectos-list {

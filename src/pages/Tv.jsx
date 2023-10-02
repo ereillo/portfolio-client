@@ -17,12 +17,12 @@ function Tv() {
   };
 
     return (
-      <div className="container-videos" style={{ justifyContent: "center" }}>
+      <div className="container-videos" style={{ justifyContent: "center", color: "#224278", marginTop: "30px" }}>
         <br />
         <div className="container-videos" style={{ marginBottom: "100px" }}>
-          <h1 style={{ marginLeft: "60px" }}>Piezas de TV</h1>
-          <h2 style={{ marginLeft: "60px", marginBottom: "50px", color: "#009ef7" }}>Movistar +</h2>
-          <div className="movistar" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px", justifyContent: "center" }}>
+          <h1 style={{ display: "flex", justifyContent: "center"}}>Piezas de TV</h1>
+          <h2 style={{ display: "flex", justifyContent: "center", marginBottom: "50px", color: "#009ef7", marginTop: "30px" }}>Movistar +</h2>
+          <div className="movistar" style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
             <Carousel activeIndex={activeIndexMovistar} onSelect={handleSelectMovistar} fade={true} interval={null}>
               <Carousel.Item>
                 <iframe title="video1" width="750" height="500" src="https://www.youtube.com/embed/f-ZAdLyiLnA?si=5G1CzDnnYUaMZXIv" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -42,9 +42,9 @@ function Tv() {
             </Carousel>
           </div>
         </div>
-        <div className="row">
+        <div className="row" style={{marginBottom: "100px"}}>
           <h1 style={{ marginLeft: "60px", marginBottom: "50px", color: "#103f5c" }}>RTVC</h1>
-          <div className="rtvc" style={{ display: "flex", flexWrap: "wrap", gap: "20px", marginLeft: "50px", justifyContent: "center" }}>
+          <div className="rtvc" style={{ display: "flex", flexWrap: "wrap", gap: "20px", justifyContent: "center" }}>
             <Carousel activeIndex={activeIndexRTVC} onSelect={handleSelectRTVC} fade={true} interval={null}>
               <Carousel.Item>
                 <iframe title="video6" width="750" height="500" src="https://www.youtube.com/embed/DLEgjJ6_xPk?si=z6V8mRdpjFLtjuqA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>

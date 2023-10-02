@@ -19,9 +19,9 @@ const CustomNavbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [
     {
-      text: "Sobre mí",
+      text: "Home",
       icon: <HomeIcon />,
-      link: "/portfolio/about",
+      link: "/",
     },
     {
       text: "Proyectos web",
