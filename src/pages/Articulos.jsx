@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 function Articulos() {
   return (
-    <ListGroup variant="flush">
+    <ListGroup variant="flush" style = {{display: "flex", justifyContent: "center"}}>
     <div style = {{marginTop: "100px"}}>
       <h1 style = {{marginTop: "-30px", marginBottom: "50px", color: "#224278"}}>Artículos publicados</h1>
       <div style = {{display: "flex", justifyContent: "center"}}>
