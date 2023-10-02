@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from "../components/Navbar.jsx"
 import Landing from './pages/Landing.jsx'
 import Proyectos from './pages/Proyectos.jsx'
