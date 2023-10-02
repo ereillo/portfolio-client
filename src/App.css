@@ -68,12 +68,15 @@ nav {
   font-family: 'Montserrat', sans-serif; 
   margin-right: 3rem;
   text-decoration: none;
+  letter-spacing: 0.10em;
+  padding: "15px 20px";
   color: #224278;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
-@media only screen and (max-width: 660px) {
+
+@media only screen and (max-width: 830px) {
   div.navbar-links-container {
     display: none;
   }
@@ -85,7 +88,7 @@ nav {
   }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 830px) {
   div.navbar-menu-container {
     display: none;
   }
@@ -100,6 +103,7 @@ nav {
 .landing-container {
     text-align: left;
     padding: 20px;
+    letter-spacing: 0.03em;
   }
   
   .landing-header {
@@ -140,6 +144,7 @@ nav {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     color: black
+    
   }
   
   .info-section h2 {
@@ -152,6 +157,7 @@ nav {
     color: #224278;
     line-height: 1.5;
     background-color: #e8f5ff!important;
+    
   }
 
   .info-card {

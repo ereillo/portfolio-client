@@ -23,10 +23,9 @@ function Landing() {
               </h2>
               <p className="info-section">
                 Nací en Las Palmas de Gran Canaria el 23 de abril de 1995.
-                Siempre he desarrollado una gran inquietud por la comunicación y
-                las nuevas tecnologías (y el deporte, mi gran pasión). En 2017
+                Con una gran inquietud por contar historias y convertirlas en experiencias, en 2017
                 me gradué en Periodismo y Comunicación Audiovisual por la
-                Universidad Carlos III de Madrid y en 2023 realicé un curso de
+                Universidad Carlos III de Madrid. Más tarde, en 2023 realicé un curso de
                 Desarrollo Web Full-stack con la academia Ironhack Madrid en
                 busca de abrirme nuevas posibilidades y abordar mis inquietudes
                 por el mundo de la programación.
@@ -35,7 +34,7 @@ function Landing() {
                 <Button
                   variant="light"
                   className="button"
-                  href="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696274965/CV_ESP_EREILLO_g32tga.png"
+                  href="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696274965/CV_ENG_EREILLO_bm1cn9.png"
                   target="_blank"
                   download
                 >
@@ -44,7 +43,7 @@ function Landing() {
                 <Button
                   variant="light"
                   className="button"
-                  href="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696274965/CV_ENG_EREILLO_bm1cn9.png"
+                  href="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696274965/CV_ESP_EREILLO_g32tga.png"
                   target="_blank"
                   download
                 >
