@@ -12,7 +12,7 @@ function Articulos() {
       <ul>
       <ListGroup.Item action variant="info" style= {{width: "500px"}}>
       <li>
-          <a href="../public/images/tfg_eve.pdf" download>
+          <a href="https://github.com/ereillo/cveve/blob/main/TFG%20Evelio_11092019_pa%CC%81g.pdf" download>
             Trabajo de Fin de Grado en Periodismo Universidad Carlos III de Madrid (2019)
           </a>
         </li>
@@ -34,7 +34,7 @@ function Articulos() {
         <ListGroup.Item action variant="light" style= {{width: "500px"}}>
         <li>
           <a href="https://www.solobasket.com/competiciones-feb/seleccion-espanola-sub20-en-busca-de-la-decima-medalla-consecutiva">
-            "En búsca de la décima medalla"
+            "En busca de la décima medalla"
           </a>
         </li>
         </ListGroup.Item>
