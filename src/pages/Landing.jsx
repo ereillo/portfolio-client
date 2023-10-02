@@ -19,7 +19,7 @@ function Landing() {
               </div>
             </Col>
             <Col md={5}>
-              <img src="../public/images/1675851711275.jpeg" alt="Foto de perfil" className="img-fluid rounded-circle" />
+              <img src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260841/1675851711275_dlrc3y.jpg" alt="Foto de perfil" className="img-fluid rounded-circle" />
             </Col>
           </Row>
         </Container>
