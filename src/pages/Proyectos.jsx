@@ -7,14 +7,14 @@ function Proyectos() {
         {
           nombre: 'VecinoChef App',
           url: 'https://vecinochef-app.netlify.app/',
-          imagen: "../public/images/vecinochef.png",
+          imagen: "https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260913/Captura_de_pantalla_2023-09-13_a_las_10.22.36_ryroab.png",
           texto: "Proyecto final Bootcamp Desarrollo Web Ironhack 2023",
           github: "https://github.com/ereillo/vecinochef-server",
         },
         {
           nombre: "GymFlex",
           url: "https://gym-app.adaptable.app/",
-          imagen: "../public/images/gymflex.png",
+          imagen: "https://res.cloudinary.com/dj9npvnlg/image/upload/v1696261120/Captura_de_pantalla_2023-10-02_a_las_17.38.34_bxakbx.png",
           texto: "Proyecto segundo módulo centrado en Backend",
           github: "https://github.com/ereillo/proyect-app-gym"
         }
