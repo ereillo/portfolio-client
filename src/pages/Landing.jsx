@@ -7,7 +7,7 @@ function Landing() {
     <div className="landing-container">
       <header
         className="landing-header text-center"
-        style={{ backgroundColor: "#bcd9f2", padding: "5rem 0" }}
+        style={{ backgroundColor: "#bcd9f2", padding: "5rem 0", marginTop: "-3em" }}
       >
         <Container>
           <Row>
@@ -55,6 +55,7 @@ function Landing() {
             <Col
               md={5}
               className="d-flex align-items-center justify-content-center"
+              style = {{float: "right"}}
             >
               <img
                 src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696265067/580b57fcd9996e24bc43c325_bdawh0.png"
@@ -67,7 +68,7 @@ function Landing() {
         </Container>
       </header>
       <section className="info-section py-5">
-        <Container>
+        <Container >
           <Row>
             <Col
               md={6}
@@ -78,6 +79,7 @@ function Landing() {
                 <ul className="list-unstyled">
                   <li>HTML 5</li>
                   <li>CSS3</li>
+                  <li>JavaScript</li>
                   <li>ReactJS</li>
                   <li>ExpressJS</li>
                   <li>Mongo Database</li>

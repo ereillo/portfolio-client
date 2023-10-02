@@ -49,6 +49,7 @@ const CustomNavbar = () => {
           rel="noopener noreferrer"
         >
           <img
+            className="logo"
             src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260895/twitter_2111819_hkdds9.png"
             alt="Twitter"
             width="30px"
@@ -60,6 +61,7 @@ const CustomNavbar = () => {
           rel="noopener noreferrer"
         >
           <img
+            className="logo"
             src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260888/linkedin_3536505_u8psjw.png"
             alt="LinkedIn"
             width="30px"
@@ -71,6 +73,7 @@ const CustomNavbar = () => {
           rel="noopener noreferrer"
         >
           <img
+          className="logo"
             src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260853/github_733553_s9muet.png"
             alt="GitHub"
             width="30px"
