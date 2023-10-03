@@ -17,7 +17,7 @@ function Proyectos() {
       url: "https://gym-app.adaptable.app/",
       imagen:
         "https://res.cloudinary.com/dj9npvnlg/image/upload/v1696261120/Captura_de_pantalla_2023-10-02_a_las_17.38.34_bxakbx.png",
-      texto: "Proyecto segundo módulo centrado en Backend",
+      texto: "Proyecto segundo módulo centrado en Backend. Procesos de autenticación, registro de usuarios en DB, 4 modelos, 3 roles",
       github: "https://github.com/ereillo/proyect-app-gym",
     },
   ];
@@ -29,7 +29,7 @@ function Proyectos() {
     >
       <h1>Proyectos Bootcamp Ironhack 2023</h1>
       <div
-        className="row"
+        className="proyectos-padre"
         style={{
           display: "flex",
           flexWrap: "wrap",
@@ -44,7 +44,7 @@ function Proyectos() {
             <div class="card">
               <div class="card-border-top"></div>
               <img
-                class="img"
+                class="img-proyectos"
                 src={proyecto.imagen}
                 alt={proyecto.nombre}
               ></img>

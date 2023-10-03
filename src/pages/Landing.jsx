@@ -18,7 +18,7 @@ function Landing() {
             <Col md={6} className="text-white">
               <h1
                 className="display-4"
-                style={{ color: "#224278", marginTop: "100px" }}
+                style={{ color: "#224278", marginTop: "50px" }}
               >
                 ¡Hola! Soy <b>Evelio</b>
               </h1>
@@ -26,14 +26,14 @@ function Landing() {
                 Desarrollador web full-stack, periodista y copywriter
               </h2>
               <p className="info-section">
-                Nací en Las Palmas de Gran Canaria el 23 de abril de 1995. Con
-                una gran inquietud por contar historias y convertirlas en
-                experiencias, en 2017 me gradué en Periodismo y Comunicación
-                Audiovisual por la Universidad Carlos III de Madrid. Más tarde,
-                en 2023 realicé un curso de Desarrollo Web Full-stack con la
-                academia Ironhack Madrid en busca de abrirme nuevas
-                posibilidades y abordar mis inquietudes por el mundo de la
-                programación.
+              Nací el 23 de abril de 1995 en Las Palmas de Gran Canaria. 
+              Desde joven, mi pasión por descubrir y contar historias ha sido mi motor. 
+              
+              En 2017, me gradué en Periodismo y Comunicación Audiovisual 
+              
+              y en 2023 decidí sumergirme en el mundo del Desarrollo Web.
+            
+              Esta experiencia no solo amplió mis horizontes, sino que también abordó de manera integral mis inquietudes en el fascinante universo de la programación.
               </p>
               <div className="cv-links">
                 <Button
@@ -62,29 +62,45 @@ function Landing() {
               style={{ float: "right" }}
             >
               <img
-                src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696329838/DSC00967_sin_fondo_brghmn.png"
+                className= "fotoeve"
+                src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696364352/Captura_de_pantalla_2023-10-03_a_las_22.19.05_wsqbt1.png"
                 alt="Evelio's profile"
-                style={{ width: "50em" }}
+                style={{ width: "31em" }}
               />
             </Col>
           </Row>
         </Container>
       </header>
       {/* <section className="info-section py-5"> */}
-      <div class="skillscard">
-  <span class="title">Skills</span>
-  <div class="card__tags">
-    <ul class="tag">
-      <li class="tag__name">JavaScript</li>
-      <li class="tag__name">HTML5</li>
-      <li class="tag__name">CSS3</li>
-      <li class="tag__name">ReactJS</li>
-      <li class="tag__name">ExpressJS</li>
-      <li class="tag__name">Mongo DB</li>
-    </ul>
-  </div>
-</div>
-    
+      {/* <div class="botones">
+      <button class="button2">
+      JavaScript
+</button>
+<button class="button2">
+HTML5
+</button>
+<button class="button2">
+CSS3
+</button>
+<button class="button2">
+ReactJS
+</button>
+<button class="button2">
+ExpressJS
+</button>
+<button class="button2">
+Mongo DB
+</button>
+<button class="button2">
+AVID
+</button>
+<button class="button2">
+Adobe Premiere
+</button>
+<button class="button2">
+Adobe Photoshop
+</button>
+</div> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@
   background: #fef7d3;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "TwitterChirp", sans-serif;
   height: 100vh;
 }
 
@@ -15,7 +15,7 @@
 
 #root {
   text-align: center;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: "TwitterChirp", sans-serif; 
 
 }
 
@@ -70,7 +70,7 @@ nav {
   background: rgba(0, 0, 0, 0.0);
   color: var(--color);
   font-size: 1.8em;
-  -webkit-box-reflect: below -63px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  -webkit-box-reflect: below -59px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
 .logo:hover {
@@ -92,6 +92,10 @@ nav {
   font-weight: 600;
 }
 
+div.MuiPaper-root  {
+  background-color: #bcd9f1;
+}
+
 
 @media only screen and (max-width: 830px) {
   div.navbar-links-container {
@@ -101,7 +105,7 @@ nav {
   div.navbar-menu-container {
     display: block;
     float: right;
-    margin-right: 20px;
+    margin-right: 30px;
   }
 }
 
@@ -130,6 +134,7 @@ nav {
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 20px;
+
   }
   
   .header-content {
@@ -188,6 +193,10 @@ nav {
     background-color: #e8f5ff!important;
   }
 
+.proyectos-padre {
+  display: flex;
+  justify-content: center;
+}
 
 .proyectos-container {
     padding: 20px;
@@ -209,7 +218,13 @@ nav {
     max-width: calc(33.33% - 20px); 
   }
 
-
+  @media (max-width: 768px) {
+    .proyecto-card {
+      display: flex;
+      justify-content: center;
+      /* margin: auto!important; */
+    }
+  }
 
 
   .articulos-container {
@@ -244,9 +259,10 @@ nav {
  
 
   .card {
-    width: 200px;
-    height: 300px!important;
+    width: 18em;
+    height: 25em!important;
     background: #e7f5ff!important;
+    margin: 10px;
     border-radius: 15px;
     box-shadow: 1px 5px 60px 0px #100a886b;
    }
@@ -296,14 +312,12 @@ nav {
    }
 
 
- /* Estilos generales */
 .container-videos {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Estilos para pantallas grandes */
 @media (min-width: 768px) {
   .container-videos {
     margin-top: 50px;
@@ -326,7 +340,6 @@ nav {
   }
 }
 
-/* Estilos para pantallas medianas */
 @media (max-width: 767px) {
   h1, h2 {
     text-align: center;
@@ -418,5 +431,77 @@ nav {
   background-color: #047cb9;
 }
 
+.fotoeve {
+  width: 22em;
+  box-shadow: 0px 0px 10px 0 #bebebe,
+              0px -5px -5¡px #ffffff;
+             border-image-slice: 100%;
+  position: absolute;
+  margin-top: 12em;
+}
+
+.button2 {
+  cursor: pointer;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(193, 163, 98);
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+  margin: 0 0.5em;
+}
+
+.button2::before {
+  content: '';
+  inset: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(193, 163, 98);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button2:hover::before {
+  scale: 3;
+}
+
+.button2:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.button2:active {
+  scale: 1;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-right: 0, 5em;
+}
+
+@media (max-width: 768px) {
+  .button2 {
+    display: none;
+    /* margin: auto!important; */
+  }
+}
+
+@media (max-width: 768px) {
+  .fotoeve div.text-white.col-md-6{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  .fotoeve {
+    margin-top: 45em;
+  }
+}
 
 
