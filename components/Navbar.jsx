@@ -115,30 +115,6 @@ const CustomNavbar = () => {
   );
 };
 
-//     //   <div style={{ display: 'flex', justifyContent: 'center' }}>
-//     //     <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="justify-content-center">
 
-//     //       <Container>
-//     //         <Navbar.Collapse id="navbar-links-container">
-//     //           <Nav className="mr-auto">
-//     //             <Nav.Link as={NavLink} to="/portfolio/about" style={linkStyle}>
-//     //               Sobre mí
-//     //             </Nav.Link>
-//     //             <Nav.Link as={NavLink} to="/portfolio/proyects" style={linkStyle}>
-//     //               Proyectos web
-//     //             </Nav.Link>
-//     //             <Nav.Link as={NavLink} to="/portfolio/tv" style={linkStyle}>
-//     //               Piezas y apariciones en TV
-//     //             </Nav.Link>
-//     //             <Nav.Link as={NavLink} to="/portfolio/articles" style={linkStyle}>
-//     //               Artículos publicados
-//     //             </Nav.Link>
-//     //           </Nav>
-//     //         </Navbar.Collapse>
-//     //       </Container>
-//     //     </Navbar>
-//     //   </div>
-//     );
-//   }
 
 export default CustomNavbar;
