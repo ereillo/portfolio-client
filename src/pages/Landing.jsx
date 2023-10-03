@@ -62,9 +62,9 @@ function Landing() {
               style={{ float: "right" }}
             >
               <img
-                src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696265067/580b57fcd9996e24bc43c325_bdawh0.png"
+                src="https://res.cloudinary.com/dj9npvnlg/image/upload/v1696329838/DSC00967_sin_fondo_brghmn.png"
                 alt="Evelio's profile"
-                style={{ width: "30em" }}
+                style={{ width: "50em" }}
               />
             </Col>
           </Row>
