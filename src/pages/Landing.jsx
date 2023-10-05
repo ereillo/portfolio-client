@@ -18,13 +18,15 @@ function Landing() {
             <Col md={6} className="text-white">
               <h1
                 className="display-4"
-                style={{ color: "#224278", marginTop: "50px" }}
+                style={{ color: "#224278", marginTop: "20px" }}
               >
                 ¡Hola! Soy <b>Evelio</b>
               </h1>
+              <br />
               <h2 className="h4" style={{ color: "#3d6da6" }}>
                 Desarrollador web full-stack, periodista y copywriter
               </h2>
+              <br />
               <p className="info-section">
               Nací el 23 de abril de 1995 en Las Palmas de Gran Canaria. 
               Desde joven, mi pasión por descubrir y contar historias ha sido mi motor. 

@@ -6,24 +6,24 @@ import '../App.css';
 function Tv() {
   const [activeIndexMovistar, setActiveIndexMovistar] = useState(0);
   const [activeIndexRTVC, setActiveIndexRTVC] = useState(0);
-  const [playing, setPlaying] = useState(true); // Estado para controlar la reproducción del video
+  const [playing, setPlaying] = useState(true); 
 
   const handleSelectMovistar = (selectedIndex, e) => {
     setActiveIndexMovistar(selectedIndex);
-    setPlaying(false); // Detener reproducción al cambiar de diapositiva
+    setPlaying(false); 
   };
 
   const handleSelectRTVC = (selectedIndex, e) => {
     setActiveIndexRTVC(selectedIndex);
-    setPlaying(false); // Detener reproducción al cambiar de diapositiva
+    setPlaying(false); 
   };
 
   const handleVideoEnded = () => {
-    setPlaying(true); // Volver a habilitar la reproducción al finalizar el video
+    setPlaying(true); 
   };
 
   return (
-    <div className="container-videos" style={{ justifyContent: "center", color: "#224278", marginTop: "20px" }}>
+    <div className="container-videos" style={{ justifyContent: "center", color: "#224278", marginTop: "10px" }}>
       <br />
       <div className="container-videos" style={{ marginBottom: "100px" }}>
         <h1 style={{ display: "flex", justifyContent: "center"}}>Piezas de TV</h1>
