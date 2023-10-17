@@ -53,7 +53,7 @@ function Proyectos() {
               <button onClick={() => window.open(proyecto.url, "_blank")}>
                 Visitar aplicación
               </button>
-              <button onClick={() => window.open(proyecto.url, "_blank")}>
+              <button onClick={() => window.open(proyecto.github, "_blank")}>
                 Ir a GitHub
               </button>
             </div>
