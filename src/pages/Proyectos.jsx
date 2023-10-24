@@ -33,7 +33,7 @@ function Proyectos() {
       url: "https://ereillo-weather-app.netlify.app/",
       imagen:
         "https://res.cloudinary.com/dj9npvnlg/image/upload/v1698149017/Captura_de_pantalla_2023-10-24_a_las_14.02.39_coyjgt.png",
-      texto: "Aplicación del tiempo creada con React",
+      texto: "Aplicación del tiempo creada con React. Llamada a la API de OpenWeather",
       github: "https://github.com/ereillo/weather-app",
     },
   ];
