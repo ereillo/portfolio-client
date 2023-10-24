@@ -9,7 +9,7 @@ function Proyectos() {
       url: "https://vecinochef-app.netlify.app/",
       imagen:
         "https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260913/Captura_de_pantalla_2023-09-13_a_las_10.22.36_ryroab.png",
-      texto: "Proyecto final Bootcamp Desarrollo Web Ironhack 2023. Hecho con React, manejo del frontend y backend.",
+      texto: "Proyecto final Bootcamp Desarrollo Web Ironhack 2023.",
       github: "https://github.com/ereillo/vecinochef-server",
     },
     {
