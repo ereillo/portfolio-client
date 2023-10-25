@@ -9,7 +9,7 @@ function Proyectos() {
       url: "https://vecinochef-app.netlify.app/",
       imagen:
         "https://res.cloudinary.com/dj9npvnlg/image/upload/v1696260913/Captura_de_pantalla_2023-09-13_a_las_10.22.36_ryroab.png",
-      texto: "Proyecto final Bootcamp Desarrollo Web Ironhack 2023.",
+      texto: "Proyecto final Bootcamp Desarrollo Web Ironhack 2023. MERN Full Stack web app",
       github: "https://github.com/ereillo/vecinochef-server",
     },
     {
@@ -17,7 +17,7 @@ function Proyectos() {
       url: "https://gym-app.adaptable.app/",
       imagen:
         "https://res.cloudinary.com/dj9npvnlg/image/upload/v1696261120/Captura_de_pantalla_2023-10-02_a_las_17.38.34_bxakbx.png",
-      texto: "Proyecto segundo módulo centrado en Backend. Procesos de autenticación, registro de usuarios en DB, 4 modelos, 3 roles. Uso de handlebars.",
+      texto: "Proyecto segundo módulo centrado en Backend. Node.JS | ExpressJs | MongoDB | Axios",
       github: "https://github.com/ereillo/proyect-app-gym",
     },
     {
@@ -43,7 +43,7 @@ function Proyectos() {
       className="container mt-4"
       style={{ marginTop: "30px", color: "#224278", justifyContent: "center" }}
     >
-      <h1>Proyectos web personales</h1>
+      <h1>Algunos de mis proyectos web</h1>
       <div
         className="proyectos-padre"
         style={{
@@ -67,15 +67,16 @@ function Proyectos() {
               <span>{proyecto.nombre}</span>
               <p class="job">{proyecto.texto}</p>
               <button onClick={() => window.open(proyecto.url, "_blank")}>
-                Visitar aplicación
+                Deploy
               </button>
               <button onClick={() => window.open(proyecto.github, "_blank")}>
-                Ir a GitHub
+                Code
               </button>
             </div>
           </div>
         ))}
       </div>
+      <p><a href="https://github.com/ereillo">Echa un vistazo a mi perfil de GitHub para más proyectos</a></p>
     </div>
   );
 }
