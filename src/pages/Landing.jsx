@@ -50,7 +50,7 @@ function Landing() {
                 <Button
                   variant="light"
                   className="button"
-                  href="https://drive.google.com/file/d/1r6yfmwgBtCYw9Q3wgnok9l_6Ps8hE5vl/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1uZoBEsjwjx1ga8SwqcGj1SA9rCDQBKS4/view?usp=drive_link"
                   target="_blank"
                   download
                 >
